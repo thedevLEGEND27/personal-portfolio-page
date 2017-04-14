@@ -1,0 +1,47 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+#page-one {
+  background: url("https://images.unsplash.com/photo-1463114680351-75863cab5bf3?ixlib=rb-0.3.5&q=100&fm=jpg&crop=entropy&cs=tinysrgb&s=8760af37406ebf5cc3fefb534d05c69d")no-repeat center center fixed;
+  height: 900px; 
+  width: 100%;
+  background-size: cover;
+}
+#page-two {
+  background: white /* url("https://images.unsplash.com/photo-1458400411386-5ae465c4e57e?dpr=1.5&auto=compress,format&fit=crop&w=1199&h=706&q=80&cs=tinysrgb&crop=&bg=") no-repeat center center fixed */;
+  height: 900px;
+  width: 100%;
+  background-size: cover;
+}
+#page-three {
+  background: url("https://images.unsplash.com/photo-1458400411386-5ae465c4e57e?dpr=1.5&auto=compress,format&fit=crop&w=1199&h=706&q=80&cs=tinysrgb&crop=&bg=") no-repeat center center fixed;
+  height: 900px;
+  width: 100%;
+  background-size: cover;
+}
+.btn {
+  opacity: 0.7;
+}
+#title-name {
+  color: black;
+  margin-top: 100px;
+  font-family: 'Special Elite' , Monospace;
+  font-size: 4.0em;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Special Elite' , Monospace;
+  font-size: 1.5em;
+}
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: #ccc;
+}
+.navbar-default {
+    //background-color: transparent;
+    border-bottom:transparent;
+}
+.nav-item:hover {
+  background-color: #eceff1;
+}
