@@ -11,8 +11,9 @@
 }
 #page-two {
   background: white /* url("https://images.unsplash.com/photo-1458400411386-5ae465c4e57e?dpr=1.5&auto=compress,format&fit=crop&w=1199&h=706&q=80&cs=tinysrgb&crop=&bg=") no-repeat center center fixed */;
-  height: 900px;
+  height: 600px;
   width: 100%;
+  text-align: justify;
   background-size: cover;
 }
 #page-three {
@@ -30,10 +31,10 @@
   font-family: 'Special Elite' , Monospace;
   font-size: 4.0em;
 }
-p, h1, h2, h3, h4, h5, h6 {
+/* .btn {
   font-family: 'Special Elite' , Monospace;
-  font-size: 1.5em;
-}
+  font-size: 1.0em;
+} */
 .btn-primary-outline {
   background-color: transparent;
   border-color: #ccc;
@@ -44,4 +45,21 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 .nav-item:hover {
   background-color: #eceff1;
+}
+.about-me-h1 {
+  font-family: 'Special Elite', Monospace;
+  margin-left: 2%;
+  font-size: 3.0em;
+  margin-top: 20px;
+}
+.about-me-p {
+  margin-left: 2%;
+  font-size: 1.7em;
+  line-height: 2;
+}
+.portrait-photo{
+  margin-top: -10px;
+}
+p {
+  font-family: 'Special Elite' , Monospace;
 }
