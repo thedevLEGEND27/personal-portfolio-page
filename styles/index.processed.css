@@ -11,13 +11,13 @@
 }
 #page-two {
   background: white /* url("https://images.unsplash.com/photo-1458400411386-5ae465c4e57e?dpr=1.5&auto=compress,format&fit=crop&w=1199&h=706&q=80&cs=tinysrgb&crop=&bg=") no-repeat center center fixed */;
-  height: 600px;
+  height: 800px;
   width: 100%;
   text-align: justify;
   background-size: cover;
 }
 #page-three {
-  background: url("https://images.unsplash.com/photo-1458400411386-5ae465c4e57e?dpr=1.5&auto=compress,format&fit=crop&w=1199&h=706&q=80&cs=tinysrgb&crop=&bg=") no-repeat center center fixed;
+  background: url("../res/page-two.jpg") no-repeat center center fixed;
   height: 900px;
   width: 100%;
   background-size: cover;
@@ -46,20 +46,26 @@
 .nav-item:hover {
   background-color: #eceff1;
 }
-.about-me-h1 {
+.about-me-h1, .page-two-h1 {
   font-family: 'Special Elite', Monospace;
-  margin-left: 2%;
+  
   font-size: 3.0em;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 .about-me-p {
   margin-left: 2%;
   font-size: 1.7em;
   line-height: 2;
+  font-family: 'Special Elite', Monospace;
 }
 .portrait-photo{
   margin-top: -10px;
 }
-p {
-  font-family: 'Special Elite' , Monospace;
+.nav {
+  font-family: 'Asar', Monospace;
+}
+.repo {
+  background-color: white;
+  margin-top: 10px;
+  padding: 30px 100px 100px 100px;
 }
