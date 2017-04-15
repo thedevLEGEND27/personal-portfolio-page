@@ -79,14 +79,12 @@
   </div> <!--End of page 1 -->
   <div class="container-fluid" id="page-two">
     <br>
-    <div class="row">
     <h1 class="about-me-h1">About me</h1>
     <div class="col-md-7">
       <p class="about-me-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus cupiditate vitae nulla recusandae molestiae fuga illo, corrupti quia nam labore, illum saepe odio ab, culpa dicta quod! Distinctio, temporibus, eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores molestias ipsam non excepturi possimus aut animi laboriosam quam similique expedita eligendi illo ut at, quae, alias quaerat! Laudantium, sint perspiciatis.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
-      <img src="http://www.publicdomainpictures.net/pictures/180000/velka/old-man-portrait.jpg" alt="" class="img-responsive portrait-photo" height="500px" width="100%">
-    </div>
+      <img src="http://www.publicdomainpictures.net/pictures/180000/velka/old-man-portrait.jpg" alt="portrait-photo" class="img-responsive portrait-photo" >
     </div>
   </div>
   <hr width="70%">
@@ -124,12 +122,12 @@
   
 </body>
 <script>
-   $(window).on('resize', function() {
+  /* $(window).on('resize', function() {
     if ($(window).width() < 1200) {
-      $("portrait-photo").css("height", "200px");
       $("#page-two").css("height", "1500px");
+      $("portrait-photo").css("height", "200px");
     }
-  });
+  });*/
 
   //$("#page-three").children().css("background-color", "white");
   $("#page-three").children().css("padding-top", "20px");
