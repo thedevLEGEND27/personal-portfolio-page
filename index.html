@@ -79,35 +79,42 @@
   </div> <!--End of page 1 -->
   <div class="container-fluid" id="page-two">
     <br>
+    <div class="row">
     <h1 class="about-me-h1">About me</h1>
     <div class="col-md-7">
       <p class="about-me-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus cupiditate vitae nulla recusandae molestiae fuga illo, corrupti quia nam labore, illum saepe odio ab, culpa dicta quod! Distinctio, temporibus, eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores molestias ipsam non excepturi possimus aut animi laboriosam quam similique expedita eligendi illo ut at, quae, alias quaerat! Laudantium, sint perspiciatis.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
-      <img src="http://www.publicdomainpictures.net/pictures/180000/velka/old-man-portrait.jpg" alt="" class="img-responsive portrait-photo" height="400px" width="100%">
+      <img src="http://www.publicdomainpictures.net/pictures/180000/velka/old-man-portrait.jpg" alt="" class="img-responsive portrait-photo" height="500px" width="100%">
+    </div>
     </div>
   </div>
+  <hr width="70%">
   <!-- Page 3 -->
-  <div>
-      <div class="col-md-6 col-md-offset-3 text-center">
-      <h1 class="page-two-h1 text-center">My Work</h1>
-
+ 
+  <div class="container row" id="page-three">
+   <div>
+      <div class="col-md-12 text-center">
+      <center>
+      <h1 class="page-two-h1" style="margin-left: -20px; margin-top: 20px;">My Projects</h1>
+      </center>
   </div>
-  <div class="container" id="page-three">
       <!-- Have 3 boxes with the my github repo's linked -->
-    <div class="text-align text-center col-xs-4">
+    <div class="row">
+    <div class="text-center col-xs-12">
       <center>
       <p class="projects">Space Game made with java</p>
       <img src="https://image.freepik.com/free-vector/space-invaders-game_62147502273.jpg" alt="" class="img-responsive img-circle">
       </center>
     </div>
-    <div class="text-align text-center  col-xs-4 ">
+      </div>
+    <div class=" text-center  col-xs-12 ">
       <p class="projects">Flappy Bird made with java</p>
       <center>
       <img src="http://vignette2.wikia.nocookie.net/annoyingorange/images/1/19/FlappyBird.png/revision/latest?cb=20140725210326" alt="" class="img-responsive img-circle">
       </center>
     </div>
-    <div class="text-align text-center col-xs-4 ">
+    <div class=" text-center col-xs-12">
       <center>
       <p class="projects">Part to BoxCubed (organisation)</p>
       <img src="http://img.auctiva.com/imgdata/1/2/0/9/5/6/9/webimg/677408023_o.jpg" alt="" class="img-responsive img-circle">
@@ -117,6 +124,13 @@
   
 </body>
 <script>
+   $(window).on('resize', function() {
+    if ($(window).width() < 1200) {
+      $("portrait-photo").css("height", "200px");
+      $("#page-two").css("height", "1500px");
+    }
+  });
+
   //$("#page-three").children().css("background-color", "white");
   $("#page-three").children().css("padding-top", "20px");
   $("#page-three").children().css("padding-bottom", "20px");
