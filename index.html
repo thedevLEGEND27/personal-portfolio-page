@@ -20,6 +20,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!--Style -->
   <link rel="stylesheet" href="styles/index.processed.css">
+  <!-- Javascript -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/smoothscroll.js"></script>
+ <script type="text/javascript" src="scripts/smoothscroll.js"></script> 
 </head>
 
 <body>
@@ -39,10 +43,10 @@
 
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active nav-item"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#page-one">About Me</a></li>
-          <li class="nav-item"><a href="#">Portfolio</a></li>
-          <li class="nav-item"><a href="#">Contact Me</a></li>
+          <li class="active nav-item"><a href="#page-one" class="smoothScroll">Home</a></li>
+          <li class="nav-item about-me"><a href="#page-two" class="smoothScroll">About Me</a></li>
+          <li class="nav-item"><a href="#page-three" class="smoothScroll">Portfolio</a></li>
+          <li class="nav-item"><a href="#" class="smoothScroll">Contact Me</a></li>
         </ul>
       </div>
       <!-- End Navbar -->
@@ -105,16 +109,16 @@
       <img src="https://image.freepik.com/free-vector/space-invaders-game_62147502273.jpg" alt="" class="img-responsive img-circle ">
       </center>
     </div>
+    <div class=" text-center col-xs-12 portfolio">
+      <center>
+      <h3 class="projects">Contributor to projectTopDOWN</h3>
+      <img src="http://i.imgur.com/f1xFOhd.png" alt="" class="img-responsive img-circle">
+      </center>
+    </div>
     <div class=" text-center  col-xs-12 portfolio">
       <h3 class="projects">Flappy Bird made with java</h3>
       <center>
       <img src="http://vignette2.wikia.nocookie.net/annoyingorange/images/1/19/FlappyBird.png/revision/latest?cb=20140725210326" alt="" class="img-responsive img-circle ">
-      </center>
-    </div>
-    <div class=" text-center col-xs-12 portfolio">
-      <center>
-      <h3 class="projects">Part to BoxCubed (organisation)</h3>
-      <img src="http://img.auctiva.com/imgdata/1/2/0/9/5/6/9/webimg/677408023_o.jpg" alt="" class="img-responsive img-circle">
       </center>
     </div>
   </div>
@@ -127,7 +131,11 @@
       $("portrait-photo").css("height", "200px");
     }
   });*/
-
+/*  $("about-me").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".page-two").offset().top},
+        'slow');
+});*/
   //$(".portfolio-img").css("background-color", "white");
   $("#page-three").children().css("padding-top", "20px");
   $("#page-three").children().css("padding-bottom", "20px");
