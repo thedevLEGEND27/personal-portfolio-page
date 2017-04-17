@@ -11,7 +11,7 @@
 }
 #page-two {
   background: white /* url("https://images.unsplash.com/photo-1458400411386-5ae465c4e57e?dpr=1.5&auto=compress,format&fit=crop&w=1199&h=706&q=80&cs=tinysrgb&crop=&bg=") no-repeat center center fixed */;
-  
+  //padding-bottom: 50px;
   width: 100%;
   text-align: justify;
   background-size: cover;
