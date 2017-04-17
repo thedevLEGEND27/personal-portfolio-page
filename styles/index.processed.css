@@ -97,7 +97,6 @@ body {
 .img-responsive{
   display: block;
 }
-//courtesy of  JR Shampang \\
 .tint:before {
   content: "";
   display: block;
@@ -109,20 +108,20 @@ body {
   background: rgba(0,255,255, 0.5);
   transition: all .3s linear;
 }
-.tint:hover:before { 
-  background: none; 
+.tint:hover:before{
+  background:  url("http://i41.tinypic.com/28h3fwh.png"); 
 }
 .t1:before { 
-  background: rgba(0,0,140, 0.5);
+  background: none;
 }
 .t2:before { 
-  background: rgba(255,0,0, 0.5); 
+  background: none; 
 }
 .t3:before { 
-  background: rgba(0,255,0, 0.5); 
+  background: none; 
 }
 .t4:before { 
-  background: rgba(255,0,240, 0.5); 
+  background: none; 
 }
 
 footer {
