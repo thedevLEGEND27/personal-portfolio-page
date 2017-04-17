@@ -86,7 +86,7 @@ body {
 .projects {
   font-size: 1.5em;
 }
-.tint {
+/* .tint {
   position: relative;
   float: center;
   margin-right: 20px;
@@ -123,7 +123,7 @@ body {
 .t4:before { 
   background: none; 
 }
-
+ */
 footer {
     padding-top: 50px ;
 }
