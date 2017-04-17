@@ -17,10 +17,10 @@
   background-size: cover;
 }
 #page-three {
-  background: url("https://images.unsplash.com/photo-1458400411386-5ae465c4e57e?dpr=1.5&auto=compress,format&fit=crop&w=1199&h=706&q=80&cs=tinysrgb&crop=&bg=") no-repeat center center fixed;
+  background: rgb(238, 240, 244);//url("http://1.bp.blogspot.com/-zE2ktjKCt7k/UGMQeiJfnNI/AAAAAAAAAuY/NusU44szrkE/s1600/IMG_3214.JPG") no-repeat center center fixed;
   //height: 1300px;
   padding-right: 0;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   width: 100%;
   background-size: cover;
 }
@@ -67,6 +67,7 @@
 }
 .portrait-photo{
   margin-top: -10px;
+  padding-bottom: 50px;
 }
 .nav {
   font-family: 'Asar', Monospace;
@@ -84,4 +85,41 @@ body {
 }
 .projects {
   font-size: 1.5em;
+}
+.tint {
+  position: relative;
+  float: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+}
+.img-responsive{
+  display: block;
+}
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,255,255, 0.5);
+  transition: all .3s linear;
+}
+.tint:hover:before { 
+  background: none; 
+}
+.t1:before { 
+  background: rgba(0,0,140, 0.5);
+}
+.t2:before { 
+  background: rgba(255,0,0, 0.5); 
+}
+.t3:before { 
+  background: rgba(0,255,0, 0.5); 
+}
+.t4:before { 
+  background: rgba(255,0,240, 0.5); 
 }
