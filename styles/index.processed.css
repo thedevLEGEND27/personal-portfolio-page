@@ -50,7 +50,7 @@
     border-bottom:transparent;
 }
 .nav-item:hover {
-  background-color: #eceff1;
+  background-color: #2E2E2E;
 }
 .about-me-h1, .page-two-h1 {
   font-family: 'Special Elite', Monospace;
@@ -97,6 +97,7 @@ body {
 .img-responsive{
   display: block;
 }
+//courtesy of  JR Shampang \\
 .tint:before {
   content: "";
   display: block;
